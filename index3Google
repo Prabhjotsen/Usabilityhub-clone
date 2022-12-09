@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Google clone using tailwind css</title>
+</head>
+
+<body>
+    <div class="navbar flex bg-blue-400 h-14 justify-center">
+        <div class="flex items-center  text-white cursor-pointer "><strong>🥳 New to UsabilityHub: Open and closed card
+                sorting!</strong> Read more</div>
+
+    </div>
+
+    <div class="flex mt-6">
+        <img class="ml-44 cursor-pointer" src="5dc9062fc19d430f6909ced7_UHLogo_standard.png" width="168px" height="31px"
+            alt="">
+
+        <div class="flex m-auto items-center">
+            <ul class="flex space-x-16 font-medium text-lg">
+                <li class="flex text-slate-600 cursor-pointer hover:text-blue-600">Product</li>
+                <li class="flex text-slate-600 cursor-pointer hover:text-blue-600">Customers</li>
+                <li class="flex text-slate-600 cursor-pointer hover:text-blue-600">Pricing</li>
+                <li class="flex text-slate-600 cursor-pointer hover:text-blue-600"> Resources</li>
+            </ul>
+            <div class="ml-10 space-x-2">
+                <button
+                    class=" w-28 h-12 border-x-2 border-y-2 hover:border-x-sky-500 hover:border-y-sky-500  rounded-md hover:text-blue-500">Sign
+                    in</button>
+                <button class=" w-28 h-12 bg-blue-500 font-bold text-white rounded-md hover:bg-blue-700">Sign
+                    up</button>
+            </div>
+        </div>
+    </div>
+    <div class="slider flex flex-col-reverse md:flex-row ">
+        <div class="left flex justify-start  flex-col px-36 py-44">
+            <h1 class=" font-semibold  md:text-5xl mx-5 text-[#183b56]">Design confidently.</h1>
+            <p class=" flex mx-5  text-[#577592] text-xl pt-5">UsabilityHub is a remote user research platform that <br>
+                takes the guesswork out of design decisions by <br> validating them with real users. </p>
+
+            <button class="mx-5 h-14 w-36 bg-blue-500 font-bold text-white rounded-md hover:bg-blue-700 mt-6">Get
+                started</button>
+
+        </div>
+        <div class="right">
+            <img class="mt-20 mr-32" src="boys and girls.png" width="586" alt="">
+        </div>
+    </div>
+
+    <div class="container flex justify-center items-center">
+        <h1 class="text-lg font-[sans-serif] text-[#183b56] ">The worlds best companies rely on UsabilityHub to make
+            better design decisions.</h1>
+    </div>
+
+    <div class="container flex justify-center items-center space-x-20 mt-4">
+        <img class="w-28" src="p1.png" alt="">
+        <img class="w-28" src="p2.png" alt="">
+        <img class="w-28" src="p3.png" alt="">
+        <img class="w-28" src="p4.png" alt="">
+        <img class="w-16" src="p5.png" alt="">
+        <img class="w-28" src="p6.svg" alt="">
+        <img class="w-28" src="p7.png" alt="">
+
+    </div>
+
+    <div class="bigcontainer flex justify-center mt-28">
+
+        <div class="container1 flex justify-center items-center">
+            <h1 class=" font-semibold text-3xl text-[#183b56]"> Your user research Swiss Army knife </h1>
+        </div>
+    </div>
+
+    <div class="container2 flex justify-center mt-5">
+        <button
+            class=" w-44 h-12 border-x-2 border-y-2 hover:border-x-sky-500 hover:border-y-sky-500  rounded-md hover:text-blue-500">See
+            all features -> </button>
+    </div>
+
+    <div class="container3 flex justify-center mt-12 space-x-7">
+
+        <div class="box h-60 w-80  flex flex-col ">
+            <img class=" flex text-center h-12" src="s1.svg" alt="">
+            <h1 class="flex  justify-center mt-3 font-semibold text-2xl text-[#183b56]"> Card sorting </h1>
+            <p class="flex text-center mt-3 font-medium text-xl text-[#577592]"> Discover how people group and label
+                information. </p>
+            <div class="flex justify-center mt-6">
+                <button
+                    class="w-40 h-12 border-x-2 border-y-2 hover:border-x-sky-500 hover:border-y-sky-500  rounded-md hover:text-blue-500 ">Learn
+                    more -> </button>
+            </div>
+        </div>
+
+        <div class="box h-60 w-80  flex flex-col ">
+            <img class=" flex text-center h-12" src="s2.svg" alt="">
+            <h1 class="flex  justify-center mt-3 font-semibold text-2xl text-[#183b56]">Prototype tests </h1>
+            <p class="flex text-center mt-3 font-medium text-xl text-[#577592]"> Discover how people navigate your Figma
+                prototypes. </p>
+            <div class="flex justify-center mt-6">
+                <button
+                    class="w-40 h-12 border-x-2 border-y-2 hover:border-x-sky-500 hover:border-y-sky-500  rounded-md hover:text-blue-500 ">Learn
+                    more -> </button>
+            </div>
+        </div>
+
+        <div class="box h-60 w-80  flex flex-col ">
+            <img class=" flex text-center h-12" src="s3.svg" alt="">
+            <h1 class="flex  justify-center mt-3 font-semibold text-2xl text-[#183b56]"> First click tests </h1>
+            <p class="flex text-center mt-3 font-medium text-xl text-[#577592]"> Test interaction with first click and
+                navigation tests. </p>
+            <div class="flex justify-center mt-6">
+                <button
+                    class="w-40 h-12 border-x-2 border-y-2 hover:border-x-sky-500 hover:border-y-sky-500  rounded-md hover:text-blue-500 ">Learn
+                    more -> </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container3 flex justify-center mt-10 space-x-7">
+
+        <div class="box h-60 w-80  flex flex-col ">
+            <img class=" flex text-center h-12" src="s4.svg" alt="">
+            <h1 class="flex  justify-center mt-3 font-semibold text-2xl text-[#183b56]">Design surveys </h1>
+            <p class="flex text-center mt-3 font-medium text-xl text-[#577592]">Get feedback on images, videos or audio
+                files. </p>
+            <div class="flex justify-center mt-6">
+                <button
+                    class="w-40 h-12 border-x-2 border-y-2 hover:border-x-sky-500 hover:border-y-sky-500  rounded-md hover:text-blue-500 ">Learn
+                    more -> </button>
+            </div>
+        </div>
+
+        <div class="box h-60 w-80  flex flex-col ">
+            <img class=" flex text-center h-12" src="s5.svg" alt="">
+            <h1 class="flex  justify-center mt-3 font-semibold text-2xl text-[#183b56]"> Preference tests </h1>
+            <p class="flex text-center mt-3 font-medium text-xl text-[#577592]"> Find out which designs users prefer and
+                why. </p>
+            <div class="flex justify-center mt-6">
+                <button
+                    class="w-40 h-12 border-x-2 border-y-2 hover:border-x-sky-500 hover:border-y-sky-500  rounded-md hover:text-blue-500 ">Learn
+                    more -> </button>
+            </div>
+        </div>
+
+        <div class="box h-60 w-80  flex flex-col ">
+            <img class=" flex text-center h-12" src="s6.svg" alt="">
+            <h1 class="flex  justify-center mt-3 font-semibold text-2xl text-[#183b56]"> Five second tests </h1>
+            <p class="flex text-center mt-3 font-medium text-xl text-[#577592]"> Test comprehensibility by measuring
+                first impressions. </p>
+            <div class="flex justify-center mt-6">
+                <button
+                    class="w-40 h-12 border-x-2 border-y-2 hover:border-x-sky-500 hover:border-y-sky-500  rounded-md hover:text-blue-500 ">Learn
+                    more -> </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container5 h-96 flex mt-14">
+        <div class="left ml-52">
+            <img class="" src="girl1.png" width="550" alt="">
+        </div>
+        <div class="right ml-14">
+            <h1 class="text-lg text-[#183b56]">Effortless validation for </h1>
+            <h1 class="text-3xl font-semibold text-[#183b56] mt-3">Design professionals </h1>
+            <p class="text-xl text-[#577592] mt-5">Test interfaces, interaction flows, iconography and <br> more, to
+                help you create intuitive and
+                delightful <br> experiences for your users. </p>
+            <h1 class="text-[#183b56] text-lg font-semibold mt-5"> ChartMogul</h1>
+            <p class="mt-4 font-medium text-lg text-[#183b56]">The navigation test is god's gift to UI <br> designers,
+                it probably has the best power-to- <br>simplicity ratio of any software, ever. </p>
+            <div class="smallcontainer flex mt-9">
+                <div class="left ">
+                    <img class=" h-12" src="man.png" alt="">
+                </div>
+                <div class="right">
+                    <h1 class="text-xl font-semibold text-[#183b56]"> Nick Franklin </h1>
+                    <p class=" text-sm text-[#577592] font-semibold">Chief Executive Officer </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container5 h-96 flex mt-44">
+        <div class="left ml-52">
+            <h1 class="text-lg text-[#183b56]"> Optimisation for </h1>
+            <h1 class="text-3xl font-semibold text-[#183b56] mt-3"> Marketers </h1>
+            <p class="text-xl text-[#577592] mt-5"> Fine-tune landing pages, messaging, and creative, <br> helping you
+                optimise conversion rates on marketing <br> campaigns and product launches. </p>
+            <h1 class="text-blue-600 text-lg font-bold mt-5"> PHILIPS</h1>
+            <p class="mt-4 font-medium text-lg text-[#183b56]"> We use UsabilityHub tests to help us make <br> decisions
+                for
+                various projects. From web and <br> mobile design to marketing activities. </p>
+            <div class="smallcontainer flex mt-9">
+                <div class="left ">
+                    <img class=" h-12" src="man1.png" alt="">
+                </div>
+                <div class="right">
+                    <h1 class="text-xl font-semibold text-[#183b56]"> Rick van de Ven </h1>
+                    <p class=" text-sm text-[#577592] font-semibold"> Digital Marketing Analyst </p>
+                </div>
+            </div>
+        </div>
+        <div class="right ml-32">
+            <img class="" src="boy1.png" width="550" alt="">
+
+        </div>
+    </div>
+
+
+    <div class="container5 h-96 flex mt-44">
+        <div class="left ml-52">
+            <img class="" src="man2.png" width="550" alt="">
+        </div>
+        <div class="right ml-14">
+            <h1 class="text-lg text-[#183b56]"> Easier decision making for </h1>
+            <h1 class="text-3xl font-semibold text-[#183b56] mt-3"> Product managers </h1>
+            <p class="text-xl text-[#577592] mt-5"> Ensure you’re delivering the right features to the <br> right
+                customers by validating product concepts with <br> your target audience. </p>
+            <h1 class="text-[#183b56] text-lg font-bold mt-5"> </h1>
+            <p class="mt-4 font-medium text-lg text-[#183b56]">The navigation test is god's gift to UI <br> designers,
+                it probably has the best power-to- <br>simplicity ratio of any software, ever. </p>
+            <div class="smallcontainer flex mt-9">
+                <div class="left ">
+                    <img class=" h-12" src="m1.png" alt="">
+                </div>
+                <div class="right">
+                    <h1 class="text-xl font-semibold text-[#183b56]"> Ron Diorio </h1>
+                    <p class=" text-sm text-[#577592] font-semibold">VP Innovation & New Products </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="bigcontainer flex justify-center mt-52">
+
+        <div class="container1 flex justify-center items-center">
+            <h1 class=" font-semibold text-4xl text-[#183b56]"> One platform, endless possibilities </h1>
+        </div>
+    </div>
+
+    <div class="container2 flex justify-center mt-5">
+        <button
+            class=" w-56 h-12 border-x-2 border-y-2 hover:border-x-sky-500 hover:border-y-sky-500  rounded-md hover:text-blue-500">See
+            more example -> </button>
+    </div>
+
+
+    <div class="container  flex  justify-center mt-12 space-x-6">
+        <div class="box h-60 w-72  flex flex-col  ">
+            <img class="  text-center h-80 rounded-sm block"
+                src="https://assets-global.website-files.com/5b29b478056829d173e3e394/5b48591a238eb6563b4d3581_cover_tasks.jpg">
+        </div>
+        <div class="box h-60 w-72  flex flex-col  ">
+            <img class=" flex text-center h-80 rounded-sm"
+                src="https://assets-global.website-files.com/5b29b478056829d173e3e394/5b48581f238eb652d84d356f_cover_navigate.jpg"
+                alt="">
+        </div>
+        <div class="box h-80 w-72  flex flex-col  ">
+            <img class=" flex text-center h-80 rounded-sm"
+                src="https://assets-global.website-files.com/5b29b478056829d173e3e394/5b485751238eb68a594d3555_cover_audience.jpg"
+                alt="">
+        </div>
+        <div class="box h-60 w-72  flex flex-col  ">
+            <img class=" flex text-center h-80 rounded-sm"
+                src="https://assets-global.website-files.com/5b29b478056829d173e3e394/5b48587a238eb690dd4d3577_cover_about.jpg"
+                alt="">
+        </div>
+    </div>
+    </div>
+
+    <div class="biglastcontainer flex h-full bg-[#183b54] mt-20">
+        <div class="left flex flex-col mt-16">
+            <h1 class=" ml-40 font-bold text-5xl text-white"> No participants? <br>
+                No problem. </h1>
+            <p class="ml-40  mt-7 text-2xl text-[#b9cde4]"> Our integrated panel allows you to quickly and affordably
+                recruit <br> research participants that
+                precisely
+                match your target audience. </p>
+            <h1 class=" ml-40 font-bold mt-7 text-white text-lg"> Our panel includes:</h1>
+
+            <div class="box flex space-x-16 mt-4">
+                <div class="left ml-44 text-base text-[#b9cdef]">
+                    <li>450k+ panel participants </li>
+                    <li> </li>
+                    <li> Free demographic targeting</li>
+                </div>
+                <div class="right text-base text-[#b9cdef]">
+                    <li> Coverage in 100+ countries</li>
+                    <li> Average 5hr turn around time</li>
+                    <li> Response quality guarantee</li>
+                </div>
+            </div>
+            <button
+                class="mx-5 h-11 w-36 ml-40  bg-blue-500 font-bold text-white rounded-md hover:bg-blue-700 mt-5">Learn
+                more</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="bigcontainer flex justify-center mt-28">
+
+        <div class="container1 flex justify-center items-center">
+            <h1 class=" font-semibold text-3xl text-[#183b56]">Start testing today </h1>
+        </div>
+    </div>
+
+    <div class="container flex mt-10 justify-center">
+        <p class="text-[#577592] text-xl "> Take the guesswork out of design decisions </p>
+    </div>
+
+
+    <div class="flex justify-center mt-12">
+        <button class="mx-5 h-11 w-36 ml-40  bg-blue-500 font-bold text-white rounded-md hover:bg-blue-700 ">Get Started</button>
+    </div>
+
+
+</body>
+
+</html>
